@@ -1,7 +1,7 @@
 <?php
 class Recipe {
     private $conn;
-    private $table = 'rp';
+    private $table = 'resep';
 
     public function __construct($db) {
         $this->conn = $db;
